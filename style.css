@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hastag-header{
+    background-color: #065FD4;
+    padding: 5rem;
+    color: white;
+    height: 114px;
+    width: 100%;
+}
+.hastag-header h1{
+    margin-bottom: 1rem;
+    font-size: 4rem;
+}
+.hastag-header span{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+.hastag-header img {
+    width: 5rem;
+    height: 5rem;
+    border: 5px solid wheat;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+img + img {
+    margin-left: -1rem;
+}
